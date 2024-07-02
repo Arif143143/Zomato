@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomzto - Your Favorite Food Delivered Fast</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #ff4b5c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .cta-button {
+            background-color: #ff4b5c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .feature {
+            width: 30%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .feature h3 {
+            color: #ff4b5c;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Zomzto</h1>
+        <p>Your Favorite Food Delivered Fast</p>
+    </div>
+    <div class="hero">
+        <div>
+            <h1>Delicious Meals, Delivered to You</h1>
+            <p>Order from your favorite restaurants with just a few clicks</p>
+            <button class="cta-button">Order Now</button>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Why Choose Zomzto?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Fast Delivery</h3>
+                <p>Get your food delivered to your doorstep in less than 30 minutes.</p>
+            </div>
+            <div class="feature">
+                <h3>Best Restaurants</h3>
+                <p>We partner with the top restaurants in your area to bring you the best meals.</p>
+            </div>
+            <div class="feature">
+                <h3>Easy Ordering</h3>
+                <p>Our user-friendly app makes it simple to find and order your favorite dishes.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Zomzto. All rights reserved.</p>
+    </div>
+</body>
+</html>
